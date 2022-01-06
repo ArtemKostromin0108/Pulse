@@ -18,8 +18,8 @@
     &__subheader {
         font-size: 24px;
         font-weight: 500;
-        color: #fff;
         text-transform: uppercase;
+        color: #fff;
     }
     &__icons {
         margin-top: 65px;
@@ -49,5 +49,11 @@
             text-decoration: underline;
             color: #fff;
         }
+    }
+}
+@media (max-width: 992px) {
+    .promo {
+        padding-right: 40px;
+        padding-left: 40px;
     }
 }
