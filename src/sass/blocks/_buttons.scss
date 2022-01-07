@@ -8,6 +8,7 @@
     font-weight: 500;
     text-align: center;
     color: #fff;
+    text-transform: uppercase;
     &_main {
         width: 300px;
         height: 50px;
@@ -20,9 +21,23 @@
     .button {
         width: 170px;
         height: 35px;
-        font-size: 15px;
+        font-size: 13px;
         &_main {
             width: 300px;
+            height: 50px;
+            font-size: 16px;
+            margin-top: 67px;
+            text-transform: uppercase;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .button {
+        width: 170px;
+        height: 35px;
+        font-size: 13px;
+        &_main {
+            width: 270px;
             height: 50px;
             font-size: 16px;
             margin-top: 67px;
