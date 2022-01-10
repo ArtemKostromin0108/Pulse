@@ -1,0 +1,31 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../img/bg/shoe_bg.jpg)center (center/cover) no-repeat;
+    &__descr {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        color: #fff;
+    }
+}
+@media (max-width: 992px) {
+    .consultation {
+        padding-left: 25px;
+        padding-right: 25px;
+        &__descr {
+            font-size: 17px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    &__descr {
+        font-size: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .consultation {
+        padding-top: 30px;
+        min-height: 625px;
+    }
+}

@@ -16,6 +16,11 @@
         margin-top: 67px;
         text-transform: uppercase;
     }
+    &_submit {
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+    }
 }
 @media (max-width: 992px) {
     .button {
@@ -28,6 +33,11 @@
             font-size: 16px;
             margin-top: 67px;
             text-transform: uppercase;
+        }
+        &_submit {
+            width: 100%;
+            height: 55px;
+            font-size: 16px;
         }
     }
 }
@@ -42,6 +52,29 @@
             font-size: 16px;
             margin-top: 67px;
             text-transform: uppercase;
+        }
+        &_submit {
+            width: 100%;
+            height: 55px;
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .button {
+        width: 134px;
+        height: 35px;
+        font-size: 13px;
+        &_main {
+            width: 270px;
+            height: 50px;
+            font-size: 16px;
+            margin-top: 67px;
+            text-transform: uppercase;
+        }
+        &_submit {
+            width: 100%;
+            height: 45px;
         }
     }
 }
